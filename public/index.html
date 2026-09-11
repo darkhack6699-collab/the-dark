@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The Dark — cybersecurity services, technical audits, authorized security assessments and education.">
+  <title>THE DARK — Cybersecurity</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header class="nav">
+    <a class="brand" href="#home">THE <span>_</span> DARK</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Work With Me</a>
+      <a href="#contact">Contact</a>
+      <select id="lang" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="ar">AR</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">[ AUTHORIZED SECURITY // DEFENSIVE FIRST ]</p>
+      <h1>BREAK IT<br><span>BEFORE THEY DO.</span></h1>
+      <p class="lead" data-i18n="hero">
+        Independent cybersecurity practice focused on authorized security assessments,
+        technical audits, vulnerability assessment, security awareness and practical education.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#work">Work With Me</a>
+        <a class="btn" href="#services">Explore Services</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head"><span>01</span><h2>Services</h2></div>
+      <div class="cards">
+        <article class="card"><b>01 // PENETRATION TESTING</b><h3>Authorized Assessments</h3><p>Scoped security testing designed to identify weaknesses before attackers can abuse them.</p></article>
+        <article class="card"><b>02 // TECHNICAL AUDITS</b><h3>Deep Technical Review</h3><p>Practical review of applications, configurations and security controls with clear remediation guidance.</p></article>
+        <article class="card"><b>03 // SECURITY EDUCATION</b><h3>Learn & Improve</h3><p>Security awareness and technical education focused on safer systems and responsible practice.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div class="section-head"><span>02</span><h2>About</h2></div>
+      <div>
+        <p class="big">THE DARK is a professional cybersecurity practice built around careful testing, clear documentation and defensive outcomes.</p>
+        <p>Every assessment should be authorized, scoped and documented. The goal is simple: find security problems, explain the risk and help fix them.</p>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head"><span>03</span><h2>Work With Me</h2></div>
+      <form id="workForm" class="form">
+        <input name="clientName" placeholder="Client Name" required maxlength="120">
+        <input name="email" type="email" placeholder="Email" required maxlength="254">
+        <input name="typeOfWork" placeholder="Type of Work" required maxlength="120">
+        <textarea name="projectDescription" placeholder="Project Description" required maxlength="4000"></textarea>
+        <input name="budget" placeholder="Budget (optional)" maxlength="100">
+        <textarea name="message" placeholder="Message" required maxlength="4000"></textarea>
+        <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn primary" type="submit">Submit Request</button>
+        <p class="status" id="workStatus" role="status"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head"><span>04</span><h2>Contact Me</h2></div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Name</strong><br>The Dark</p>
+          <p><strong>WhatsApp / Phone</strong><br><a href="tel:+201507403634">01507403634</a></p>
+          <p><strong>Telegram</strong><br><a href="https://t.me/01507403634" target="_blank" rel="noopener">01507403634</a></p>
+          <p><strong>Email</strong><br><a href="mailto:dark.hack6699@gmail.com">dark.hack6699@gmail.com</a></p>
+        </div>
+        <form id="contactForm" class="form">
+          <input name="name" placeholder="Name" required maxlength="120">
+          <input name="email" type="email" placeholder="Email" required maxlength="254">
+          <input name="subject" placeholder="Subject" required maxlength="200">
+          <textarea name="message" placeholder="Message" required maxlength="4000"></textarea>
+          <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="status" id="contactStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>THE DARK // SECURITY WITH AUTHORIZATION</footer>
+  <script src="/app.js"></script>
+</body>
+</html>
