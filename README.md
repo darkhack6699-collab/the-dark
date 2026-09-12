@@ -38,3 +38,4 @@ The Emergent-managed Google sign-in cannot be copied automatically into this sta
 
 ## Security note
 This project is for authorized, defensive cybersecurity work only. It does not include exploit, credential theft, malware, or unauthorized access features.
+Email configuration update
