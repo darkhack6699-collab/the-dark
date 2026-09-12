@@ -5,8 +5,7 @@ pages_build_output_dir = "public"
 [[d1_databases]]
 binding = "DB"
 database_name = "the-dark-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
-
+database_id = "0d07155a-4f86-4c69-8eb4-d110fe6b2d72"
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
 id = "8a2572b0aa034b2490111916dec09012"
