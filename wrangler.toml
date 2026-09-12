@@ -9,4 +9,4 @@ database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "8a2572b0aa034b2490111916dec09012"
