@@ -5,7 +5,6 @@ const MAX_PASSWORD = 128;
 function clean(v, max) {
   return String(v ?? "").trim().replace(/[<>]/g, "").slice(0, max);
 }
-
 function validEmail(v) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 }
