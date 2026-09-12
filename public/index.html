@@ -1,23 +1,21 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="/style.css">
-
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/favicon.png">
-  
-<meta
-name="description"
-content="The Dark — cybersecurity services, technical audits, authorized security assessments and education."
-
->
 
   <title>THE DARK — Cybersecurity</title>
 
+  <meta
+    name="description"
+    content="The Dark — cybersecurity services, technical audits, authorized security assessments and education."
+  >
+
   <link rel="stylesheet" href="/style.css">
+
+  <!-- Site icon -->
+  <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/logo.png">
 </head>
 
 <body>
@@ -28,527 +26,238 @@ content="The Dark — cybersecurity services, technical audits, authorized secur
 
   <header class="nav">
 
-```
-<a class="brand" href="#home">
-  THE <span>_</span> DARK
-</a>
+    <a class="brand" href="#home">
+      <img
+        src="/logo.png"
+        alt="THE DARK Logo"
+      >
+      <span>
+        THE <b>_</b> DARK
+      </span>
+    </a>
 
-<nav>
+    <nav>
 
-  <a href="#services">Services</a>
+      <a href="#services">Services</a>
 
-  <a href="#about">About</a>
+      <a href="#about">About</a>
 
-  <a href="#work">Work With Me</a>
+      <a href="#work">Work With Me</a>
 
-  <a href="#contact">Contact</a>
+      <a href="#contact">Contact</a>
 
-  <select id="lang" aria-label="Language">
-    <option value="en">EN</option>
-    <option value="ar">AR</option>
-  </select>
+      <select id="lang" aria-label="Language">
+        <option value="en">EN</option>
+        <option value="ar">AR</option>
+      </select>
 
-  <div class="auth-actions">
+      <div class="auth-actions">
 
-    <button
-      class="btn"
-      id="loginBtn"
-      type="button"
-    >
-      Login
-    </button>
+        <button
+          class="btn"
+          id="loginBtn"
+          type="button"
+        >
+          Login
+        </button>
 
-    <button
-      class="btn primary"
-      id="signupBtn"
-      type="button"
-    >
-      Sign Up
-    </button>
+        <button
+          class="btn primary"
+          id="signupBtn"
+          type="button"
+        >
+          Sign Up
+        </button>
 
-  </div>
+      </div>
 
-</nav>
-```
+    </nav>
 
   </header>
+
 
   <!-- ================= MAIN ================= -->
 
   <main>
 
-```
-<!-- ================= HOME ================= -->
+    <!-- ================= HOME ================= -->
 
-<section id="home" class="hero">
-
-  <p class="eyebrow">
-    [ AUTHORIZED SECURITY // DEFENSIVE FIRST ]
-  </p>
-
-  <h1>
-    BREAK IT<br>
-    <span>BEFORE THEY DO.</span>
-  </h1>
-
-  <p class="lead" data-i18n="hero">
-    Independent cybersecurity practice focused on authorized security assessments,
-    technical audits, vulnerability assessment, security awareness and practical education.
-  </p>
-
-  <div class="actions">
-
-    <a
-      class="btn primary"
-      href="#work"
+    <section
+      id="home"
+      class="hero"
     >
-      Work With Me
-    </a>
 
-    <a
-      class="btn"
-      href="#services"
-    >
-      Explore Services
-    </a>
-
-  </div>
-
-</section>
-
-
-<!-- ================= SERVICES ================= -->
-
-<section
-  id="services"
-  class="section"
->
-
-  <div class="section-head">
-
-    <span>01</span>
-
-    <h2>Services</h2>
-
-  </div>
-
-
-  <div class="cards">
-
-
-    <article class="card">
-
-      <b>
-        01 // PENETRATION TESTING
-      </b>
-
-      <h3>
-        Authorized Assessments
-      </h3>
-
-      <p>
-        Scoped security testing designed to identify weaknesses
-        before attackers can abuse them.
+      <p class="eyebrow">
+        [ AUTHORIZED SECURITY // DEFENSIVE FIRST ]
       </p>
 
-    </article>
-
-
-    <article class="card">
-
-      <b>
-        02 // TECHNICAL AUDITS
-      </b>
-
-      <h3>
-        Deep Technical Review
-      </h3>
-
-      <p>
-        Practical review of applications, configurations and security
-        controls with clear remediation guidance.
-      </p>
-
-    </article>
-
-
-    <article class="card">
-
-      <b>
-        03 // SECURITY EDUCATION
-      </b>
-
-      <h3>
-        Learn & Improve
-      </h3>
-
-      <p>
-        Security awareness and technical education focused on safer
-        systems and responsible practice.
-      </p>
-
-    </article>
-
-  </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section
-  id="about"
-  class="section split"
->
-
-  <div class="section-head">
-
-    <span>02</span>
-
-    <h2>About</h2>
-
-  </div>
-
-
-  <div>
-
-    <p class="big">
-      THE DARK is a professional cybersecurity practice built around
-      careful testing, clear documentation and defensive outcomes.
-    </p>
-
-    <p>
-      Every assessment should be authorized, scoped and documented.
-      The goal is simple: find security problems, explain the risk
-      and help fix them.
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- ================= WORK ================= -->
-
-<section
-  id="work"
-  class="section"
->
-
-  <div class="section-head">
-
-    <span>03</span>
-
-    <h2>Work With Me</h2>
-
-  </div>
-
-
-  <form
-    id="workForm"
-    class="form"
-  >
-
-    <input
-      name="clientName"
-      placeholder="Client Name"
-      required
-      maxlength="120"
-    >
-
-    <input
-      name="email"
-      type="email"
-      placeholder="Email"
-      required
-      maxlength="254"
-    >
-
-    <input
-      name="typeOfWork"
-      placeholder="Type of Work"
-      required
-      maxlength="120"
-    >
-
-    <textarea
-      name="projectDescription"
-      placeholder="Project Description"
-      required
-      maxlength="4000"
-    ></textarea>
-
-    <input
-      name="budget"
-      placeholder="Budget (optional)"
-      maxlength="100"
-    >
-
-    <textarea
-      name="message"
-      placeholder="Message"
-      required
-      maxlength="4000"
-    ></textarea>
-
-    <!-- Honeypot -->
-    <input
-      name="website"
-      class="hp"
-      tabindex="-1"
-      autocomplete="off"
-      aria-hidden="true"
-    >
-
-    <button
-      class="btn primary"
-      type="submit"
-    >
-      Submit Request
-    </button>
-
-    <p
-      class="status"
-      id="workStatus"
-      role="status"
-    ></p>
-
-  </form>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section
-  id="contact"
-  class="section"
->
-
-  <div class="section-head">
-
-    <span>04</span>
-
-    <h2>Contact Me</h2>
-
-  </div>
-
-
-  <div class="contact-grid">
-
-
-    <div class="contact-info">
-
-      <p>
-
-        <strong>Name</strong><br>
-
-        The Dark
-
-      </p>
-
-
-      <p>
-
-        <strong>WhatsApp / Phone</strong><br>
-
-        <a href="tel:+201507403634">
-          01507403634
-        </a>
-
-      </p>
-
-
-      <p>
-
-        <strong>Telegram</strong><br>
-
-        <a
-          href="https://t.me/015074403634"
-          target="_blank"
-          rel="noopener"
-        >
-          01507403634
-        </a>
-
-      </p>
-
-
-      <p>
-
-        <strong>Email</strong><br>
-
-        <a href="mailto:dark.hack6699@gmail.com">
-          dark.hack6699@gmail.com
-        </a>
-
-      </p>
-
-    </div>
-
-
-    <form
-      id="contactForm"
-      class="form"
-    >
-
-      <input
-        name="name"
-        placeholder="Name"
-        required
-        maxlength="120"
-      >
-
-      <input
-        name="email"
-        type="email"
-        placeholder="Email"
-        required
-        maxlength="254"
-      >
-
-      <input
-        name="subject"
-        placeholder="Subject"
-        required
-        maxlength="200"
-      >
-
-      <textarea
-        name="message"
-        placeholder="Message"
-        required
-        maxlength="4000"
-      ></textarea>
-
-      <!-- Honeypot -->
-      <input
-        name="website"
-        class="hp"
-        tabindex="-1"
-        autocomplete="off"
-        aria-hidden="true"
-      >
-
-      <button
-        class="btn primary"
-        type="submit"
-      >
-        Send Message
-      </button>
+      <h1>
+        BREAK IT<br>
+        <span>BEFORE THEY DO.</span>
+      </h1>
 
       <p
-        class="status"
-        id="contactStatus"
-        role="status"
-      ></p>
+        class="lead"
+        data-i18n="hero"
+      >
+        Independent cybersecurity practice focused on authorized
+        security assessments, technical audits, vulnerability
+        assessment, security awareness and practical education.
+      </p>
 
-    </form>
+      <div class="actions">
 
-  </div>
+        <a
+          class="btn primary"
+          href="#work"
+        >
+          Work With Me
+        </a>
 
-</section>
+        <a
+          class="btn"
+          href="#services"
+        >
+          Explore Services
+        </a>
 
+      </div>
 
-<!-- ================= ACCOUNT ================= -->
-
-<section
-  id="auth"
-  class="auth-section section"
->
-
-  <div class="section-head">
-
-    <span>05</span>
-
-    <h2>Account</h2>
-
-  </div>
-
-
-  <div class="auth-box">
+    </section>
 
 
-    <!-- ================= ACCOUNT PANEL ================= -->
+    <!-- ================= SERVICES ================= -->
 
-    <div
-      id="accountPanel"
-      hidden
+    <section
+      id="services"
+      class="section"
     >
 
-      <h3>
-        My Account
-      </h3>
+      <div class="section-head">
+        <span>01</span>
+        <h2>Services</h2>
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+
+          <b>
+            01 // PENETRATION TESTING
+          </b>
+
+          <h3>
+            Authorized Assessments
+          </h3>
+
+          <p>
+            Scoped security testing designed to identify weaknesses
+            before attackers can abuse them.
+          </p>
+
+        </article>
 
 
-      <div class="account-info">
+        <article class="card">
 
-        <p>
+          <b>
+            02 // TECHNICAL AUDITS
+          </b>
 
-          <strong>Name:</strong>
+          <h3>
+            Deep Technical Review
+          </h3>
 
-          <span id="accountName">
-            -
-          </span>
+          <p>
+            Practical review of applications, configurations and
+            security controls with clear remediation guidance.
+          </p>
 
+        </article>
+
+
+        <article class="card">
+
+          <b>
+            03 // SECURITY EDUCATION
+          </b>
+
+          <h3>
+            Learn & Improve
+          </h3>
+
+          <p>
+            Security awareness and technical education focused on
+            safer systems and responsible practice.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+      id="about"
+      class="section split"
+    >
+
+      <div class="section-head">
+
+        <span>02</span>
+
+        <h2>About</h2>
+
+      </div>
+
+      <div>
+
+        <p class="big">
+          THE DARK is a professional cybersecurity practice built
+          around careful testing, clear documentation and defensive
+          outcomes.
         </p>
 
-
         <p>
-
-          <strong>Email:</strong>
-
-          <span id="accountEmail">
-            -
-          </span>
-
-        </p>
-
-
-        <p>
-
-          <strong>Account Created:</strong>
-
-          <span id="accountCreated">
-            -
-          </span>
-
+          Every assessment should be authorized, scoped and documented.
+          The goal is simple: find security problems, explain the risk
+          and help fix them.
         </p>
 
       </div>
 
-
-      <button
-        class="btn primary"
-        id="logoutBtn"
-        type="button"
-      >
-        Logout
-      </button>
+    </section>
 
 
-      <p
-        class="status"
-        id="accountStatus"
-        role="status"
-      ></p>
+    <!-- ================= WORK ================= -->
 
-    </div>
+    <section
+      id="work"
+      class="section"
+    >
 
+      <div class="section-head">
 
-    <!-- ================= LOGIN ================= -->
+        <span>03</span>
 
-    <div id="loginPanel">
+        <h2>Work With Me</h2>
 
-      <h3>
-        Login
-      </h3>
-
+      </div>
 
       <form
-        id="loginForm"
+        id="workForm"
         class="form"
       >
+
+        <input
+          name="clientName"
+          placeholder="Client Name"
+          required
+          maxlength="120"
+        >
 
         <input
           name="email"
@@ -558,11 +267,434 @@ content="The Dark — cybersecurity services, technical audits, authorized secur
           maxlength="254"
         >
 
+        <input
+          name="typeOfWork"
+          placeholder="Type of Work"
+          required
+          maxlength="120"
+        >
+
+        <textarea
+          name="projectDescription"
+          placeholder="Project Description"
+          required
+          maxlength="4000"
+        ></textarea>
 
         <input
-          name="password"
-          type="password"
-          placeholder="Password"
+          name="budget"
+          placeholder="Budget (optional)"
+          maxlength="100"
+        >
+
+        <textarea
+          name="message"
+          placeholder="Message"
           required
-          maxlength="12
-```
+          maxlength="4000"
+        ></textarea>
+
+        <!-- Honeypot -->
+        <input
+          name="website"
+          class="hp"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+        >
+
+        <button
+          class="btn primary"
+          type="submit"
+        >
+          Submit Request
+        </button>
+
+        <p
+          class="status"
+          id="workStatus"
+          role="status"
+        ></p>
+
+      </form>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      id="contact"
+      class="section"
+    >
+
+      <div class="section-head">
+
+        <span>04</span>
+
+        <h2>Contact Me</h2>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <p>
+            <strong>Name</strong><br>
+            The Dark
+          </p>
+
+
+          <p>
+            <strong>WhatsApp / Phone</strong><br>
+
+            <a href="tel:+201507403634">
+              01507403634
+            </a>
+          </p>
+
+
+          <p>
+            <strong>Telegram</strong><br>
+
+            <a
+              href="https://t.me/01507403634"
+              target="_blank"
+              rel="noopener"
+            >
+              01507403634
+            </a>
+          </p>
+
+
+          <p>
+            <strong>Email</strong><br>
+
+            <a href="mailto:dark.hack6699@gmail.com">
+              dark.hack6699@gmail.com
+            </a>
+          </p>
+
+        </div>
+
+
+        <form
+          id="contactForm"
+          class="form"
+        >
+
+          <input
+            name="name"
+            placeholder="Name"
+            required
+            maxlength="120"
+          >
+
+          <input
+            name="email"
+            type="email"
+            placeholder="Email"
+            required
+            maxlength="254"
+          >
+
+          <input
+            name="subject"
+            placeholder="Subject"
+            required
+            maxlength="200"
+          >
+
+          <textarea
+            name="message"
+            placeholder="Message"
+            required
+            maxlength="4000"
+          ></textarea>
+
+          <!-- Honeypot -->
+          <input
+            name="website"
+            class="hp"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+          >
+
+          <button
+            class="btn primary"
+            type="submit"
+          >
+            Send Message
+          </button>
+
+          <p
+            class="status"
+            id="contactStatus"
+            role="status"
+          ></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ACCOUNT ================= -->
+
+    <section
+      id="auth"
+      class="auth-section section"
+    >
+
+      <div class="section-head">
+
+        <span>05</span>
+
+        <h2>Account</h2>
+
+      </div>
+
+
+      <div class="auth-box">
+
+
+        <!-- ================= ACCOUNT PANEL ================= -->
+
+        <div
+          id="accountPanel"
+          hidden
+        >
+
+          <h3>
+            My Account
+          </h3>
+
+
+          <div class="account-info">
+
+            <p>
+              <strong>Name:</strong>
+              <span id="accountName">-</span>
+            </p>
+
+            <p>
+              <strong>Email:</strong>
+              <span id="accountEmail">-</span>
+            </p>
+
+            <p>
+              <strong>Account Created:</strong>
+              <span id="accountCreated">-</span>
+            </p>
+
+          </div>
+
+
+          <button
+            class="btn primary"
+            id="logoutBtn"
+            type="button"
+          >
+            Logout
+          </button>
+
+
+          <p
+            class="status"
+            id="accountStatus"
+            role="status"
+          ></p>
+
+        </div>
+
+
+        <!-- ================= LOGIN ================= -->
+
+        <div id="loginPanel">
+
+          <h3>
+            Login
+          </h3>
+
+
+          <form
+            id="loginForm"
+            class="form"
+          >
+
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+              maxlength="254"
+              autocomplete="email"
+            >
+
+
+            <input
+              name="password"
+              type="password"
+              placeholder="Password"
+              required
+              minlength="8"
+              maxlength="128"
+              autocomplete="current-password"
+            >
+
+
+            <button
+              class="btn primary"
+              type="submit"
+            >
+              Login
+            </button>
+
+
+            <p
+              class="status"
+              id="loginStatus"
+              role="status"
+            ></p>
+
+          </form>
+
+
+          <p>
+            Don't have an account?
+
+            <button
+              class="text-btn"
+              id="showSignup"
+              type="button"
+            >
+              Create one
+            </button>
+          </p>
+
+        </div>
+
+
+        <!-- ================= SIGN UP ================= -->
+
+        <div
+          id="signupPanel"
+          hidden
+        >
+
+          <h3>
+            Create Account
+          </h3>
+
+
+          <form
+            id="signupForm"
+            class="form"
+          >
+
+            <input
+              name="name"
+              type="text"
+              placeholder="Full Name"
+              required
+              maxlength="120"
+              autocomplete="name"
+            >
+
+
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+              maxlength="254"
+              autocomplete="email"
+            >
+
+
+            <input
+              name="password"
+              type="password"
+              placeholder="Password"
+              required
+              minlength="8"
+              maxlength="128"
+              autocomplete="new-password"
+            >
+
+
+            <input
+              name="confirmPassword"
+              type="password"
+              placeholder="Confirm Password"
+              required
+              minlength="8"
+              maxlength="128"
+              autocomplete="new-password"
+            >
+
+
+            <button
+              class="btn primary"
+              type="submit"
+            >
+              Sign Up
+            </button>
+
+
+            <p
+              class="status"
+              id="signupStatus"
+              role="status"
+            ></p>
+
+          </form>
+
+
+          <p>
+            Already have an account?
+
+            <button
+              class="text-btn"
+              id="showLogin"
+              type="button"
+            >
+              Login
+            </button>
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <p>
+      THE DARK — Authorized Cybersecurity & Defensive Security
+    </p>
+
+    <p>
+      Built for responsible and authorized security work.
+    </p>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="/app.js"></script>
+
+</body>
+</html>
