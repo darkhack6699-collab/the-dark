@@ -115,7 +115,6 @@ export async function onRequestPost({ request, env }) {
         }
       }
     );
-
   } catch (error) {
     console.error("Login error:", error);
 
